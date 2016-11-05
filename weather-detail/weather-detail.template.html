@@ -1,0 +1,6 @@
+﻿<h1>Locations</h1>
+<select ng-model="locationId" ng-options="item.id as item.name for item in $ctrl.results.Locations.Location"></select>
+
+<select ng-model="anotherLocationId">
+    <option ng-repeat="item in $ctrl.results.Locations.Location" value="{{item.id}}">{{item.name}}</option>
+</select> 

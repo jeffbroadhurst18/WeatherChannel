@@ -1,0 +1,22 @@
+﻿<html lang="en" ng-app="weatherApp">
+<head>
+    <meta charset="utf-8">
+    <title>Weather Application</title>
+    <link href="Content/ui-bootstrap-csp.css" rel="stylesheet" />
+    <link href="app.css" rel="stylesheet" />
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap.js"></script>
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="core/metoffice-module.js"></script>
+    <script src="core/metoffice-service.js"></script>
+    <script src="weather-detail/weather-detail.module.js"></script>
+    <script src="weather-detail/weather-detail.component.js"></script>
+</head>
+<body>
+    <div>
+        <div ng-view></div>
+    </div>
+</body>
+</html>
